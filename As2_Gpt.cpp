@@ -30,8 +30,8 @@ int main(){
 				printf ("%f",x1);	
 			}else{
 				d1 = sqrt(d);
-				x1 = -b/2 + d1/2;
 				x2 = -b/2 - d1/2;
+				x1 = (-b + d1)/(2*a);
 				printf ("%f\n",x1);	
 				printf ("%f",x2);	
 			}
